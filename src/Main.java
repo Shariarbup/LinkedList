@@ -1,3 +1,4 @@
+import java.util.*;
 public class Main {
 
     public static void main(String[] args){
@@ -8,6 +9,10 @@ public class Main {
         LinkedListSecB linkedListSecB=new LinkedListSecB();
         linkedListSecB.getLinkedListItems();
         setSecB.getSetList();
+       ArrayList<Integer> integerArrayList= setSecB.getInteger();
+       for(Integer integer : integerArrayList){
+           System.out.println(integer);
+       }
     }
 
 

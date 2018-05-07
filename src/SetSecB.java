@@ -18,4 +18,10 @@ public class SetSecB {
         }
 
     }
+    public ArrayList<Integer> getInteger(){
+        ArrayList<Integer> integers=new ArrayList<>();
+        integers.add(1);
+        integers.add(2);
+        return integers;
+    }
 }
